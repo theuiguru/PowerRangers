@@ -1,0 +1,90 @@
+{
+  "mightyMorphin": [
+    {"name": "", "color": "red", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "black", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "green", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "white", "zord": "", "weapon": ""}
+  ],
+  "alien": [
+    {"name": "", "color": "red", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "black", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""},
+    {"name": "", "color": "white", "zord": "", "weapon": ""}
+  ],
+  "zeo": [
+    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "green", "zord": "", "weapon": ""},
+    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "", "color": "gold", "zord": "", "weapon": ""}
+  ],
+  "turbo": [
+    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "green", "zord": "", "weapon": ""},
+    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "", "color": "phantom", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue senturion", "zord": "", "weapon": ""}
+  ],
+  "space": [
+    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "black", "zord": "", "weapon": ""},
+    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "", "color": "silver", "zord": "", "weapon": ""}
+  ],
+  "lostGalaxy": [
+    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "green", "zord": "", "weapon": ""},
+    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "", "color": "magna defender", "zord": "", "weapon": ""}
+  ],
+  "lightspeedRescue": [
+    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "green", "zord": "", "weapon": ""},
+    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "", "color": "titanium", "zord": "", "weapon": ""}
+  ],
+  "timeForce": [
+    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "green", "zord": "", "weapon": ""},
+    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "", "color": "quantum", "zord": "", "weapon": ""}
+  ],
+  "wildForce": [
+    {"name": "", "color": "white", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "black", "zord": "", "weapon": ""},
+    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "", "color": "silver", "zord": "", "weapon": ""}
+  ],
+  "ninjaStorm": [
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""},
+    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "", "color": "maroon", "zord": "", "weapon": ""},
+    {"name": "", "color": "navy", "zord": "", "weapon": ""},
+    {"name": "", "color": "green", "zord": "", "weapon": ""}
+  ],
+  "dinoThunder": [
+    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "", "color": "blue", "zord": "", "weapon": ""},
+    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "", "color": "black", "zord": "", "weapon": ""},
+    {"name": "", "color": "white", "zord": "", "weapon": ""}
+  ]
+}
