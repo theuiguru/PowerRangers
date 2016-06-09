@@ -1,12 +1,11 @@
 {
   "mightyMorphin": [
-    {"name": "", "color": "red", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "black", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "green", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "white", "zord": "", "weapon": ""}
+    {"name": "Jason Lee Scott", "color": "red", "zord": "Tyrannosaurus", "weapon": ""}, 
+    {"name": "Zack Taylor", "color": "black", "zord": "Mastodon", "weapon": ""}, 
+    {"name": "Billy Cranston", "color": "blue", "zord": "Triceratops", "weapon": ""}, 
+    {"name": "Trini Kwan", "color": "yellow", "zord": "Saber-Toothed Tiger", "weapon": ""}, 
+    {"name": "Kimberly Ann Hart", "color": "pink", "zord": "Pterodactyl", "weapon": ""}, 
+    {"name": "Tommy Oliver", "color": ["green", "white"], "zord": ["Dragonzord", "Tigerzord"], "weapon": ""}
   ],
   "alien": [
     {"name": "", "color": "red", "zord": "", "weapon": ""}, 
