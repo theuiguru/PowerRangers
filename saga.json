@@ -15,52 +15,52 @@
     {"name": "", "color": "white", "zord": "", "weapon": ""}
   ],
   "zeo": [
-    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "green", "zord": "", "weapon": ""},
-    {"name": "", "color": "red", "zord": "", "weapon": ""},
-    {"name": "", "color": "gold", "zord": "", "weapon": ""}
+    {"name": "Kat", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "Tanya", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "Rocky", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "Adam", "color": "green", "zord": "", "weapon": ""},
+    {"name": "Tommy", "color": "red", "zord": "", "weapon": ""},
+    {"name": "Jason", "color": "gold", "zord": "", "weapon": ""}
   ],
   "turbo": [
-    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "green", "zord": "", "weapon": ""},
-    {"name": "", "color": "red", "zord": "", "weapon": ""},
-    {"name": "", "color": "phantom", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue senturion", "zord": "", "weapon": ""}
+    {"characters": {"name": "Kat", "name": "Cassie"}, "color": "pink", "zord": "", "weapon": ""}, 
+    {"characters": {"name": "Tanya", "name": "Ashley"}, "color": "yellow", "zord": "", "weapon": ""}, 
+    {"characters": {"name": "Rocky", "name": "Justin"}, "color": "blue", "zord": "", "weapon": ""}, 
+    {"characters": {"name": "Adam", "name": "Carlos"}, "color": "green", "zord": "", "weapon": ""},
+    {"characters": {"name": "Tommy", "name": "TJ"}, "color": "red", "zord": "", "weapon": ""},
+    {"color": "phantom", "zord": "", "weapon": ""}, 
+    {"color": "blue senturion", "zord": "", "weapon": ""}
   ],
   "space": [
-    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "black", "zord": "", "weapon": ""},
-    {"name": "", "color": "red", "zord": "", "weapon": ""},
-    {"name": "", "color": "silver", "zord": "", "weapon": ""}
+    {"name": "Cassie", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "Ashley", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "TJ", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "Carlos", "color": "black", "zord": "", "weapon": ""},
+    {"name": "Andros", "color": "red", "zord": "", "weapon": ""},
+    {"name": "Zane", "color": "silver", "zord": "", "weapon": ""}
   ],
   "lostGalaxy": [
-    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "green", "zord": "", "weapon": ""},
-    {"name": "", "color": "red", "zord": "", "weapon": ""},
-    {"name": "", "color": "magna defender", "zord": "", "weapon": ""}
+    {"name": "Kendrix", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "Maya", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "Kai", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "Damon", "color": "green", "zord": "", "weapon": ""},
+    {"name": "Leo", "color": "red", "zord": "", "weapon": ""},
+    {"name": "Mike", "color": "magna defender", "zord": "", "weapon": ""}
   ],
   "lightspeedRescue": [
-    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "green", "zord": "", "weapon": ""},
-    {"name": "", "color": "red", "zord": "", "weapon": ""},
-    {"name": "", "color": "titanium", "zord": "", "weapon": ""}
+    {"name": "Dana Mitchell", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "Kelsey Winslow", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "Chad Lee", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "Joel Rawlings", "color": "green", "zord": "", "weapon": ""},
+    {"name": "Carter Grayson", "color": "red", "zord": "", "weapon": ""},
+    {"name": "Ryan Mitchell", "color": "titanium", "zord": "", "weapon": ""}
   ],
   "timeForce": [
-    {"name": "", "color": "pink", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "green", "zord": "", "weapon": ""},
-    {"name": "", "color": "red", "zord": "", "weapon": ""},
+    {"name": "Jen", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "Katie", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "Lucas", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "Trip", "color": "green", "zord": "", "weapon": ""},
+    {"name": "Wes", "color": "red", "zord": "", "weapon": ""},
     {"name": "", "color": "quantum", "zord": "", "weapon": ""}
   ],
   "wildForce": [
