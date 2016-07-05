@@ -61,29 +61,29 @@
     {"name": "Lucas", "color": "blue", "zord": "", "weapon": ""}, 
     {"name": "Trip", "color": "green", "zord": "", "weapon": ""},
     {"name": "Wes", "color": "red", "zord": "", "weapon": ""},
-    {"name": "", "color": "quantum", "zord": "", "weapon": ""}
+    {"name": "Eric", "color": "quantum", "zord": "", "weapon": ""}
   ],
   "wildForce": [
-    {"name": "", "color": "white", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "black", "zord": "", "weapon": ""},
-    {"name": "", "color": "red", "zord": "", "weapon": ""},
-    {"name": "", "color": "silver", "zord": "", "weapon": ""}
+    {"name": "Alyssa", "color": "white", "zord": "", "weapon": ""}, 
+    {"name": "Taylor", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "Max", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "Danny", "color": "black", "zord": "", "weapon": ""},
+    {"name": "Cole", "color": "red", "zord": "", "weapon": ""},
+    {"name": "Merrick", "color": "silver", "zord": "", "weapon": ""}
   ],
   "ninjaStorm": [
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""},
-    {"name": "", "color": "red", "zord": "", "weapon": ""},
-    {"name": "", "color": "maroon", "zord": "", "weapon": ""},
-    {"name": "", "color": "navy", "zord": "", "weapon": ""},
-    {"name": "", "color": "green", "zord": "", "weapon": ""}
+    {"name": "Dustin", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "Tori", "color": "blue", "zord": "", "weapon": ""},
+    {"name": "Shane", "color": "red", "zord": "", "weapon": ""},
+    {"name": "Hunter", "color": "maroon", "zord": "", "weapon": ""},
+    {"name": "Blake", "color": "navy", "zord": "", "weapon": ""},
+    {"name": "Cam", "color": "green", "zord": "", "weapon": ""}
   ],
   "dinoThunder": [
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""},
-    {"name": "", "color": "red", "zord": "", "weapon": ""},
-    {"name": "", "color": "black", "zord": "", "weapon": ""},
-    {"name": "", "color": "white", "zord": "", "weapon": ""}
+    {"name": "Kira", "color": "yellow", "zord": "", "weapon": ""}, 
+    {"name": "Ethan", "color": "blue", "zord": "", "weapon": ""},
+    {"name": "Conner", "color": "red", "zord": "", "weapon": ""},
+    {"name": "Dr. Tommy Oliver", "color": "black", "zord": "", "weapon": ""},
+    {"name": "Trent", "color": "white", "zord": "", "weapon": ""}
   ]
 }
