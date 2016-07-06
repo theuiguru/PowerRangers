@@ -8,26 +8,26 @@
     {"name": "Tommy Oliver", "color": ["green", "white"], "zord": ["Dragonzord", "Tigerzord"], "weapon": ""}
   ],
   "alien": [
-    {"name": "", "color": "red", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "black", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "", "color": "yellow", "zord": "", "weapon": ""},
-    {"name": "", "color": "white", "zord": "", "weapon": ""}
+    {"name": "Aurico", "color": "red", "zord": "", "weapon": ""}, 
+    {"name": "Corcus", "color": "black", "zord": "", "weapon": ""}, 
+    {"name": "Cestro", "color": "blue", "zord": "", "weapon": ""}, 
+    {"name": "Tideus", "color": "yellow", "zord": "", "weapon": ""},
+    {"name": "Delphine", "color": "white", "zord": "", "weapon": ""}
   ],
   "zeo": [
-    {"name": "Kat", "color": "pink", "zord": "", "weapon": ""}, 
+    {"name": "Katherine", "color": "pink", "zord": "", "weapon": ""}, 
     {"name": "Tanya", "color": "yellow", "zord": "", "weapon": ""}, 
     {"name": "Rocky", "color": "blue", "zord": "", "weapon": ""}, 
     {"name": "Adam", "color": "green", "zord": "", "weapon": ""},
     {"name": "Tommy", "color": "red", "zord": "", "weapon": ""},
-    {"name": "Jason", "color": "gold", "zord": "", "weapon": ""}
+    {"characters": {"name": "Jason", "name": "Trey of Triforia"}, "color": "gold", "zord": "", "weapon": ""}
   ],
   "turbo": [
-    {"characters": {"name": "Kat", "name": "Cassie"}, "color": "pink", "zord": "", "weapon": ""}, 
-    {"characters": {"name": "Tanya", "name": "Ashley"}, "color": "yellow", "zord": "", "weapon": ""}, 
-    {"characters": {"name": "Rocky", "name": "Justin"}, "color": "blue", "zord": "", "weapon": ""}, 
-    {"characters": {"name": "Adam", "name": "Carlos"}, "color": "green", "zord": "", "weapon": ""},
-    {"characters": {"name": "Tommy", "name": "TJ"}, "color": "red", "zord": "", "weapon": ""},
+    {"characters": {"name": "Kat", "name": "Cassie"}, "color": "pink", "zord": "Wind Chaser", "weapon": ""}, 
+    {"characters": {"name": "Tanya", "name": "Ashley"}, "color": "yellow", "zord": "Dune Star", "weapon": ""}, 
+    {"characters": {"name": "Rocky", "name": "Justin"}, "color": "blue", "zord": "Mountain Blaster", "weapon": ""}, 
+    {"characters": {"name": "Adam", "name": "Carlos"}, "color": "green", "zord": "Desert Thunder", "weapon": ""},
+    {"characters": {"name": "Tommy", "name": "TJ"}, "color": "red", "zord": "Red Lightning Turbozord", "weapon": ""},
     {"color": "phantom", "zord": "", "weapon": ""}, 
     {"color": "blue senturion", "zord": "", "weapon": ""}
   ],
