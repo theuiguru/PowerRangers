@@ -32,19 +32,19 @@
     {"color": "blue senturion", "zord": "", "weapon": ""}
   ],
   "space": [
-    {"name": "Cassie", "color": "pink", "zord": "", "weapon": ""}, 
-    {"name": "Ashley", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "TJ", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "Carlos", "color": "black", "zord": "", "weapon": ""},
-    {"name": "Andros", "color": "red", "zord": "", "weapon": ""},
-    {"name": "Zane", "color": "silver", "zord": "", "weapon": ""}
+    {"name": "Cassie", "color": "pink", "zord": "Mega V5 Tank Voyager", "weapon": ""}, 
+    {"name": "Ashley", "color": "yellow", "zord": "Mega V4 Saucer Voyager", "weapon": ""}, 
+    {"name": "TJ", "color": "blue", "zord": "Mega V3 Rocket Voyager", "weapon": ""}, 
+    {"name": "Carlos", "color": "black", "zord": "Mega V2 Shuttle Voyager", "weapon": ""},
+    {"name": "Andros", "color": "red", "zord": "Mega V1 Robo Voyager", "weapon": ""},
+    {"name": "Zane", "color": "silver", "zord": "Mega Winger", "weapon": ""}
   ],
   "lostGalaxy": [
-    {"name": "Kendrix", "color": "pink", "zord": "", "weapon": ""}, 
-    {"name": "Maya", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "Kai", "color": "blue", "zord": "", "weapon": ""}, 
-    {"name": "Damon", "color": "green", "zord": "", "weapon": ""},
-    {"name": "Leo", "color": "red", "zord": "", "weapon": ""},
+    {"name": "Kendrix", "color": "pink", "zord": "Wildcat Galactabeast", "weapon": ""}, 
+    {"name": "Maya", "color": "yellow", "zord": "Wolf Galactabeast", "weapon": ""}, 
+    {"name": "Kai", "color": "blue", "zord": "Gorilla Galactabeast", "weapon": ""}, 
+    {"name": "Damon", "color": "green", "zord": "Condor Galactabeast", "weapon": ""},
+    {"name": "Leo", "color": "red", "zord": "Lion Galactabeast", "weapon": ""},
     {"name": "Mike", "color": "magna defender", "zord": "", "weapon": ""}
   ],
   "lightspeedRescue": [
