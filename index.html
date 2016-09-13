@@ -20,7 +20,7 @@ header {background:url(logo.png) no-repeat fixed top; width:100%; height:700px;}
 $(function() {
   var link = 'https://raw.githubusercontent.com/theuiguru/PowerRangers/gh-pages/saga.json';
   $.get(link,  function(data) {
-    $('.prSaga').html(data);
+    $('.prSaga').append(data);
   });
 });
 </script></body></html>
