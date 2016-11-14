@@ -106,39 +106,50 @@
     {"name": "Dax Lo", "color": "blue", "zord": "", "weapon": ""}
   ],
   "JungleFury": [
-    {"name": "Kira", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "Ethan", "color": "blue", "zord": "", "weapon": ""},
-    {"name": "Conner", "color": "red", "zord": "", "weapon": ""},
-    {"name": "Dr. Tommy Oliver", "color": "black", "zord": "", "weapon": ""},
-    {"name": "Trent", "color": "white", "zord": "", "weapon": ""}
+    {"name": "Casey Rhodes", "color": "red", "zord": "tiger", "weapon": ""}, 
+    {"name": "Theo Martin", "color": "blue", "zord": "jaguar", "weapon": ""},
+    {"name": "Lily Chilman", "color": "yellow", "zord": "cheetah", "weapon": ""},
+    {"name": "Robert (RJ) James", "color": "violet", "zord": "wolf", "weapon": ""},
+    {"name": "Dominic (Dom) Hargan", "color": "white", "zord": "rhino", "weapon": ""}
   ],
   "RPM": [
-    {"name": "Kira", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "Ethan", "color": "blue", "zord": "", "weapon": ""},
-    {"name": "Conner", "color": "red", "zord": "", "weapon": ""},
-    {"name": "Dr. Tommy Oliver", "color": "black", "zord": "", "weapon": ""},
-    {"name": "Trent", "color": "white", "zord": "", "weapon": ""}
+    {"name": "Scott Truman", "color": "red", "zord": "", "weapon": ""}, 
+    {"name": "Flynn McAllistair", "color": "blue", "zord": "", "weapon": ""},
+    {"name": "Summer Landsdown", "color": "yellow", "zord": "", "weapon": ""},
+    {"name": "Ziggy Grover", "color": "green", "zord": "", "weapon": ""},
+    {"name": "Dillon", "color": "black", "zord": "", "weapon": ""},
+    {"name": "Gem", "color": "gold", "zord": "", "weapon": ""},
+    {"name": "Gemma", "color": "silver", "zord": "", "weapon": ""}
   ],
   "Samurai": [
-    {"name": "Kira", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "Ethan", "color": "blue", "zord": "", "weapon": ""},
-    {"name": "Conner", "color": "red", "zord": "", "weapon": ""},
-    {"name": "Dr. Tommy Oliver", "color": "black", "zord": "", "weapon": ""},
-    {"name": "Trent", "color": "white", "zord": "", "weapon": ""}
+    {"name": "Jayden Shiba", "color": "red", "zord": "", "weapon": ""}, 
+    {"name": "Mia Watanabe", "color": "pink", "zord": "", "weapon": ""},
+    {"name": "Mike", "color": "green", "zord": "", "weapon": ""},
+    {"name": "Kevin", "color": "blue", "zord": "", "weapon": ""},
+    {"name": "Emily", "color": "yellow", "zord": "", "weapon": ""},
+    {"name": "Antonio Garcia", "color": "gold", "zord": "", "weapon": ""},
+    {"name": "Lauren Shiba", "color": "red (Super Samurai II)", "zord": "", "weapon": ""},
   ],
   "Megaforce": [
-    {"name": "Kira", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "Ethan", "color": "blue", "zord": "", "weapon": ""},
-    {"name": "Conner", "color": "red", "zord": "", "weapon": ""},
-    {"name": "Dr. Tommy Oliver", "color": "black", "zord": "", "weapon": ""},
-    {"name": "Trent", "color": "white", "zord": "", "weapon": ""}
+    {"name": "Troy Burrows", "color": "red", "zord": "", "weapon": ""}, 
+    {"name": "Gia Moran", "color": "yellow", "zord": "", "weapon": ""},
+    {"name": "Noah Carver", "color": "blue", "zord": "", "weapon": ""},
+    {"name": "Emma Goodall", "color": "pink", "zord": "", "weapon": ""},
+    {"name": "Jake Holling", "color": "black/green", "zord": "", "weapon": ""},
+    {"name": "Orion", "color": "silver", "zord": "", "weapon": ""}
   ],
   "DinoCharge": [
-    {"name": "Kira", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "Ethan", "color": "blue", "zord": "", "weapon": ""},
-    {"name": "Conner", "color": "red", "zord": "", "weapon": ""},
-    {"name": "Dr. Tommy Oliver", "color": "black", "zord": "", "weapon": ""},
-    {"name": "Trent", "color": "white", "zord": "", "weapon": ""}
+    {"name": "Tyler Navarro", "color": "red", "zord": "", "weapon": ""}, 
+    {"name": "Chase Randall", "color": "black", "zord": "", "weapon": ""},
+    {"name": "Shelby Watkins", "color": "pink", "zord": "", "weapon": ""},
+    {"name": "Koda", "color": "blue", "zord": "", "weapon": ""},
+    {"name": "Riley Griffin", "color": "green", "zord": "", "weapon": ""},
+    {"name": "Kendall Morgan", "color": "purple", "zord": "", "weapon": ""},
+    {"name": "Sir Ivan of Zandar", "color": "gold", "zord": "", "weapon": ""},
+    {"name": "Prince Philip III", "color": "graphite", "zord": "", "weapon": ""},
+    {"name": "James Navarro", "color": "aqua", "zord": "", "weapon": ""},
+    {"name": "Albert Smith", "color": "purple", "zord": "", "weapon": ""},
+    {"name": "Zenowing", "color": "silver", "zord": "", "weapon": ""},
   ],
   "NinjaSteel": [
     {"name": "Kira", "color": "yellow", "zord": "", "weapon": ""}, 
