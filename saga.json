@@ -151,11 +151,5 @@
     {"name": "Albert Smith", "color": "purple", "zord": "", "weapon": ""},
     {"name": "Zenowing", "color": "silver", "zord": "", "weapon": ""},
   ],
-  "NinjaSteel": [
-    {"name": "Kira", "color": "yellow", "zord": "", "weapon": ""}, 
-    {"name": "Ethan", "color": "blue", "zord": "", "weapon": ""},
-    {"name": "Conner", "color": "red", "zord": "", "weapon": ""},
-    {"name": "Dr. Tommy Oliver", "color": "black", "zord": "", "weapon": ""},
-    {"name": "Trent", "color": "white", "zord": "", "weapon": ""}
-  ]
+  "NinjaSteel": []
 }
