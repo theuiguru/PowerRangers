@@ -12,7 +12,7 @@ header {background:url(logo.png) no-repeat fixed top; width:100%; height:700px;}
 .prImg {background:url(powerrangers_new.jpg) no-repeat fixed center; height:700px;}
 .newCast {background:url(new_cast.png) no-repeat fixed bottom; height:300px;}
 footer {text-align:center; padding:20px; background:#1A237E;}
-</style></head><body><header></header>
+</style></head><body><header class="intro"></header>
 <section><pre class="prSaga"></pre></section>
 <section class="prImg"></section>
 <section class="newCast"></section>
@@ -23,6 +23,9 @@ $(function() {
   var link = 'https://raw.githubusercontent.com/theuiguru/PowerRangers/gh-pages/saga.json';
   $.get(link,  function(data) {
     $('.prSaga').append(data);
+  });
+  $('.intro').on('click', function() {
+    $(this).html('<iframe src="http://www.youtube.com/embed/5kIe6UZHSXw?rel=0&autoplay=1&controls=0&showinfo=0&autohide=1" width="100%" height="100%" frameborder="0" allowfullscreen="true">').css('background', 'none');
   });
 });
 </script></body></html>
