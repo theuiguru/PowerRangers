@@ -128,7 +128,7 @@
     {"name": "Kevin", "color": "blue", "zord": "", "weapon": ""},
     {"name": "Emily", "color": "yellow", "zord": "", "weapon": ""},
     {"name": "Antonio Garcia", "color": "gold", "zord": "", "weapon": ""},
-    {"name": "Lauren Shiba", "color": "red (Super Samurai II)", "zord": "", "weapon": ""},
+    {"name": "Lauren Shiba", "color": "red (Super Samurai II)", "zord": "", "weapon": ""}
   ],
   "Megaforce": [
     {"name": "Troy Burrows", "color": "red", "zord": "", "weapon": ""}, 
@@ -149,7 +149,7 @@
     {"name": "Prince Philip III", "color": "graphite", "zord": "", "weapon": ""},
     {"name": "James Navarro", "color": "aqua", "zord": "", "weapon": ""},
     {"name": "Albert Smith", "color": "purple", "zord": "", "weapon": ""},
-    {"name": "Zenowing", "color": "silver", "zord": "", "weapon": ""},
+    {"name": "Zenowing", "color": "silver", "zord": "", "weapon": ""}
   ],
   "NinjaSteel": []
 }
