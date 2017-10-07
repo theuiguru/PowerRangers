@@ -8,26 +8,26 @@
     {"name": "Tommy Oliver", "color": ["green", "white"], "zord": ["Dragonzord", "Tigerzord"]}
   ],
   "Alien": [
-    {"name": "Aurico", "color": "red", "zord": ""}, 
-    {"name": "Corcus", "color": "black", "zord": ""}, 
-    {"name": "Cestro", "color": "blue", "zord": ""}, 
-    {"name": "Tideus", "color": "yellow", "zord": ""},
-    {"name": "Delphine", "color": "white", "zord": ""}
+    {"name": "Aurico", "color": "red", "zord": "Red Battle Borg"}, 
+    {"name": "Corcus", "color": "black", "zord": "Black Battle Borg"}, 
+    {"name": "Cestro", "color": "blue", "zord": "Blue Battle Borg"}, 
+    {"name": "Tideus", "color": "yellow", "zord": "Yellow Battle Borg"},
+    {"name": "Delphine", "color": "white", "zord": "White Battle Borg"}
   ],
   "Zeo": [
-    {"name": "Katherine Hillard", "color": "pink", "zord": ""}, 
-    {"name": "Tanya Sloan", "color": "yellow", "zord": ""}, 
-    {"name": "Rocky DeSantos", "color": "blue", "zord": ""}, 
-    {"name": "Adam Park", "color": "green", "zord": ""},
-    {"name": "Tommy Oliver", "color": "red", "zord": ""},
-    {"characters": {"name": "Jason Scott", "name": "Trey of Triforia"}, "color": "gold", "zord": ""}
+    {"name": "Katherine Hillard", "color": "pink", "zord": "Zeozord 1"}, 
+    {"name": "Tanya Sloan", "color": "yellow", "zord": "Zeozord 2"}, 
+    {"name": "Rocky DeSantos", "color": "blue", "zord": "Zeozord 3"}, 
+    {"name": "Adam Park", "color": "green", "zord": "Zeozord 4"},
+    {"name": "Tommy Oliver", "color": "red", "zord": "Zeozord 5"},
+    {"characters": {"name": "Jason Scott", "name": "Trey of Triforia"}, "color": "gold"}
   ],
   "Turbo": [
-    {"characters": {"name": "Katherine Hillard", "name": "Cassie Chan"}, "color": "pink", "zord": "Wind Chaser"}, 
-    {"characters": {"name": "Tanya Sloan", "name": "Ashley Hammond"}, "color": "yellow", "zord": "Dune Star"}, 
-    {"characters": {"name": "Rocky DeSantos", "name": "Justin Stewart"}, "color": "blue", "zord": "Mountain Blaster"}, 
-    {"characters": {"name": "Adam Park", "name": "Carlos Vallerte"}, "color": "green", "zord": "Desert Thunder"},
-    {"characters": {"name": "Tommy Oliver", "name": "TJ Johnson"}, "color": "red", "zord": "Red Lightning Turbozord"}
+    {"characters": {"name": "Katherine Hillard", "name": "Cassie Chan"}, "color": "pink", "zord": "Wind Chaser Turbozord/Wind Rescue Rescuezord"}, 
+    {"characters": {"name": "Tanya Sloan", "name": "Ashley Hammond"}, "color": "yellow", "zord": "Dune Star Turbozord/Star Racer Rescuezord"}, 
+    {"characters": {"name": "Rocky DeSantos", "name": "Justin Stewart"}, "color": "blue", "zord": "Mountain Blaster Turbozord/Siren Blaster Rescuezord"}, 
+    {"characters": {"name": "Adam Park", "name": "Carlos Vallerte"}, "color": "green", "zord": "Desert Thunder Turbozord/Thunder Loader Rescuezord"},
+    {"characters": {"name": "Tommy Oliver", "name": "TJ Johnson"}, "color": "red", "zord": "Red Lightning Turbozord/Lightning Fire Tamer Rescuezord"}
   ],
   "Space": [
     {"name": "Cassie Chan", "color": "pink", "zord": "Mega V5 Tank Voyager"}, 
