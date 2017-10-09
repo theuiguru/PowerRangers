@@ -46,43 +46,43 @@
     {"name": "Mike Corbett", "color": "magna defender", "zord": ""}
   ],
   "LightspeedRescue": [
-    {"name": "Dana Mitchell", "color": "pink", "zord": ""}, 
-    {"name": "Kelsey Winslow", "color": "yellow", "zord": ""}, 
-    {"name": "Chad Lee", "color": "blue", "zord": ""}, 
-    {"name": "Joel Rawlings", "color": "green", "zord": ""},
-    {"name": "Carter Grayson", "color": "red", "zord": ""},
-    {"name": "Ryan Mitchell", "color": "titanium", "zord": ""}
+    {"name": "Dana Mitchell", "color": "pink"}, 
+    {"name": "Kelsey Winslow", "color": "yellow"}, 
+    {"name": "Chad Lee", "color": "blue"}, 
+    {"name": "Joel Rawlings", "color": "green"},
+    {"name": "Carter Grayson", "color": "red"},
+    {"name": "Ryan Mitchell", "color": "titanium"}
   ],
   "TimeForce": [
-    {"name": "Jen Scotts", "color": "pink", "zord": ""}, 
-    {"name": "Katie Walker", "color": "yellow", "zord": ""}, 
-    {"name": "Lucas Kendall", "color": "blue", "zord": ""}, 
-    {"name": "Trip", "color": "green", "zord": ""},
-    {"name": "Wes Collins", "color": "red", "zord": ""},
-    {"name": "Eric Myers", "color": "quantum", "zord": ""}
+    {"name": "Jen Scotts", "color": "pink", "zord": "Time Flyer 5"}, 
+    {"name": "Katie Walker", "color": "yellow", "zord": "Time Flyer 4"}, 
+    {"name": "Lucas Kendall", "color": "blue", "zord": "Time Flyer 2"}, 
+    {"name": "Trip", "color": "green", "zord": "Time Flyer 3"},
+    {"name": "Wes Collins", "color": "red", "zord": "Time Flyer 1"},
+    {"name": "Eric Myers", "color": "quantum", "zord": "Quantasaurus Rex"}
   ],
   "WildForce": [
-    {"name": "Alyssa Enrilé", "color": "white", "zord": ""}, 
-    {"name": "Taylor Earhardt", "color": "yellow", "zord": ""}, 
-    {"name": "Max Cooper", "color": "blue", "zord": ""}, 
-    {"name": "Danny Delgado", "color": "black", "zord": ""},
-    {"name": "Cole Evans", "color": "red", "zord": ""},
-    {"name": "Merrick Baliton", "color": "silver", "zord": ""}
+    {"name": "Alyssa Enrilé", "color": "white", "zord": "White Tiger Zord"}, 
+    {"name": "Taylor Earhardt", "color": "yellow", "zord": "Yellow Eagle Zord"}, 
+    {"name": "Max Cooper", "color": "blue", "zord": "Blue Shark Zord"}, 
+    {"name": "Danny Delgado", "color": "black", "zord": "Black Bison Zord"},
+    {"name": "Cole Evans", "color": "red", "zord": "Red Lion Zord"},
+    {"name": "Merrick Baliton", "color": "lunar wolf", "zord": "Elephant Zord"}
   ],
   "NinjaStorm": [
-    {"name": "Dustin Brooks", "color": "yellow", "zord": ""}, 
-    {"name": "Tori Hanson", "color": "blue", "zord": ""},
-    {"name": "Shane Clarke", "color": "red", "zord": ""},
-    {"name": "Hunter Bradley", "color": "maroon", "zord": ""},
-    {"name": "Blake Bradley", "color": "navy", "zord": ""},
-    {"name": "Cam", "color": "green", "zord": ""}
+    {"name": "Dustin Brooks", "color": "yellow", "zord": "Lionzord"}, 
+    {"name": "Tori Hanson", "color": "blue", "zord": "Navy Beetlezord"},
+    {"name": "Shane Clarke", "color": "red", "zord": "Hawkzord"},
+    {"name": "Hunter Bradley", "color": "crimson", "zord": "Crimson Insectizord"},
+    {"name": "Blake Bradley", "color": "navy", "zord": "Navy Beetlezord"},
+    {"name": "Cam", "color": "green", "zord": "Samurai Star Megazord"}
   ],
   "DinoThunder": [
-    {"name": "Kira Ford", "color": "yellow", "zord": ""}, 
-    {"name": "Ethan James", "color": "blue", "zord": ""},
-    {"name": "Conner McKnight", "color": "red", "zord": ""},
-    {"name": "Dr. Tommy Oliver", "color": "black", "zord": ""},
-    {"name": "Trent Fernandez-Mercer", "color": "white", "zord": ""}
+    {"name": "Kira Ford", "color": "yellow", "zord": "Pterazord"}, 
+    {"name": "Ethan James", "color": "blue", "zord": "Tricerazord"},
+    {"name": "Conner McKnight", "color": "red", "zord": "Tyrannozord"},
+    {"name": "Dr. Tommy Oliver", "color": "black", "zord": "Stegozord (when combined with Dragozord)"},
+    {"name": "Trent Fernandez-Mercer", "color": "white", "zord": "Dragozord"}
   ],
   "SPD": [
     {"name": "Syd Drew", "color": "pink", "zord": ""}, 
