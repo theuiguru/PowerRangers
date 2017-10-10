@@ -151,5 +151,11 @@
     {"name": "Albert Smith", "color": "purple", "zord": ""},
     {"name": "Zenowing", "color": "silver", "zord": ""}
   ],
-  "NinjaSteel": []
+  "NinjaSteel": [
+    {"name": "", "color": "red"},
+    {"name": "", "color": "blue"},
+    {"name": "", "color": "black"},
+    {"name": "", "color": "yellow"},
+    {"name": "", "color": "pink"}
+  ]
 }
