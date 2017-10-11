@@ -85,25 +85,34 @@
     {"name": "Trent Fernandez-Mercer", "color": "white", "zord": "Dragozord"}
   ],
   "SPD": [
-    {"name": "Syd Drew", "color": "pink", "zord": ""}, 
-    {"name": "Sky Tate", "color": "blue", "zord": ""},
-    {"name": "Bridge Carson", "color": "green", "zord": ""},
-    {"name": "Jack Landors", "color": "red", "zord": ""},
-    {"name": "Z Delgado", "color": "yellow", "zord": ""}
+    {"name": "Sydney Drew", "color": "pink", "zord": "Delta Runner 5"}, 
+    {"name": "Schuyler (Sky) Tate", "color": "blue", "zord": "Delta Runner 2"},
+    {"name": "Bridge Carson", "color": "green", "zord": "Delta Runner 3"},
+    {"name": "Jack Landors", "color": "red", "zord": "Delta Runner 1"},
+    {"name": "Elizabeth (Z) Delgado", "color": "yellow", "zord": "Delta Runner 4"},
+    {"name": "Chief Anubis Cruger", "color": "shadow", "zord": "Delta Command Megazord"},
+    {"name": "Sam", "color": "omega", "zord": "Omegamax Cycle"},
+    {"name": "Kat", "color": "kat"},
+    {"name": "Nova", "color": "nova"},
+    {"name": "Boom", "color": "orange"}
   ],
   "MysticForce": [
-    {"name": "Chip Thorn", "color": "yellow", "zord": ""}, 
-    {"name": "Madison Rocca", "color": "blue", "zord": ""},
-    {"name": "Vida Rocca", "color": "pink", "zord": ""},
-    {"name": "Xander Bly", "color": "green", "zord": ""},
-    {"name": "Nick Russell", "red": "white", "zord": ""}
+    {"name": "Charlie (Chip) Thorn", "color": "yellow", "zord": "Mystic Garuda"}, 
+    {"name": "Madison Rocca", "color": "blue", "zord": "Mystic Mermaid"},
+    {"name": "Vida Rocca", "color": "pink", "zord": "Mystic Sprite"},
+    {"name": "Xander Bly", "color": "green", "zord": "Mystic Minotaur"},
+    {"name": "Nick Russell", "red": "red", "zord": "Mystic Phoenix"},
+    {"name": "Udonna", "color": "white"},
+    {"name": "Daggeron", "color": "Solaris Knight", "zord": "Solar Streak"},
+    {"name": "Leanbow", "color": "Wolf Warrior", "zord": "Catastros (horse)"}
   ],
   "OperationOverdrive": [
-    {"name": "Mack Hartford", "color": "red", "zord": ""}, 
-    {"name": "Veronica (Ronny) Robinson;", "color": "yellow", "zord": ""},
-    {"name": "William (Will) Aston;", "color": "black", "zord": ""},
-    {"name": "Rose Ortiz", "color": "pink", "zord": ""},
-    {"name": "Dax Lo", "color": "blue", "zord": ""}
+    {"name": "Mack Hartford", "color": "red", "zord": "Dump Driver"}, 
+    {"name": "Veronica (Ronny) Robinson;", "color": "yellow", "zord": "Dozer Driver"},
+    {"name": "William (Will) Aston;", "color": "black", "zord": "Speed Driver"},
+    {"name": "Rose Ortiz", "color": "pink", "zord": "Sub Driver"},
+    {"name": "Dax Lo", "color": "blue", "zord": "Gyro Driver"},
+    {"name": "Tyzonn", "color": "mercury"}
   ],
   "JungleFury": [
     {"name": "Casey Rhodes", "color": "red", "zord": "tiger"}, 
@@ -151,11 +160,5 @@
     {"name": "Albert Smith", "color": "purple", "zord": ""},
     {"name": "Zenowing", "color": "silver", "zord": ""}
   ],
-  "NinjaSteel": [
-    {"name": "", "color": "red"},
-    {"name": "", "color": "blue"},
-    {"name": "", "color": "black"},
-    {"name": "", "color": "yellow"},
-    {"name": "", "color": "pink"}
-  ]
+  "NinjaSteel": []
 }
