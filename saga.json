@@ -160,5 +160,12 @@
     {"name": "Albert Smith", "color": "purple", "zord": ""},
     {"name": "Zenowing", "color": "silver", "zord": ""}
   ],
-  "NinjaSteel": []
+  "NinjaSteel": [
+    {"name": "Brody Romero", "color": "red"},
+    {"name": "Calvin Maxwell", "color": "yellow"},
+    {"name": "Hayley Foster", "color": "white"},
+    {"name": "Preston Tien", "color": "blue"},
+    {"name": "Sarah Thompson", "color": "pink"},
+    {"name": "Aiden Romero/Levi Weston", "color": "gold"}
+  ]
 }
