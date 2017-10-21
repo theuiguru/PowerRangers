@@ -115,50 +115,55 @@
     {"name": "Tyzonn", "color": "mercury"}
   ],
   "JungleFury": [
-    {"name": "Casey Rhodes", "color": "red", "zord": "tiger"}, 
-    {"name": "Theo Martin", "color": "blue", "zord": "jaguar"},
-    {"name": "Lily Chilman", "color": "yellow", "zord": "cheetah"},
-    {"name": "Robert (RJ) James", "color": "violet", "zord": "wolf"},
-    {"name": "Dominic (Dom) Hargan", "color": "white", "zord": "rhino"}
+    {"name": "Casey Rhodes", "color": "red", "zord": "Tiger Animal Spirit"}, 
+    {"name": "Theo Martin", "color": "blue", "zord": "Jaguar Animal Spirit"},
+    {"name": "Lily Chilman", "color": "yellow", "zord": "Cheetah Animal Spirit"},
+    {"name": "Robert (RJ) James", "color": "violet", "zord": "Wolf"},
+    {"name": "Dominic (Dom) Hargan", "color": "white", "zord": "Rhino"},
+    {"name": "", "zord": ""},
+    {"name": "", "zord": ""},
+    {"name": "", "zord": ""},
+    {"name": "", "zord": ""},
+    {"name": "", "zord": ""},
   ],
   "RPM": [
-    {"name": "Scott Truman", "color": "red", "zord": ""}, 
-    {"name": "Flynn McAllistair", "color": "blue", "zord": ""},
-    {"name": "Summer Landsdown", "color": "yellow", "zord": ""},
-    {"name": "Ziggy Grover", "color": "green", "zord": ""},
-    {"name": "Dillon", "color": "black", "zord": ""},
-    {"name": "Gem", "color": "gold", "zord": ""},
-    {"name": "Gemma", "color": "silver", "zord": ""}
+    {"name": "Scott Truman", "color": "red", "zord": "Eagle Racer"}, 
+    {"name": "Flynn McAllistair", "color": "blue", "zord": "Lion Hauler"},
+    {"name": "Summer Landsdown", "color": "yellow", "zord": "Falcon Zord"},
+    {"name": "Ziggy Grover", "color": "green", "zord": "Tail Spinner"},
+    {"name": "Dillon", "color": "black", "zord": "Wolf Cruiser"},
+    {"name": "Gem", "color": "gold", "zord": "Whale Zord"},
+    {"name": "Gemma", "color": "silver", "zord": "Tiger Jet"}
   ],
   "Samurai": [
-    {"name": "Jayden Shiba", "color": "red", "zord": ""}, 
-    {"name": "Mia Watanabe", "color": "pink", "zord": ""},
-    {"name": "Mike", "color": "green", "zord": ""},
-    {"name": "Kevin", "color": "blue", "zord": ""},
-    {"name": "Emily", "color": "yellow", "zord": ""},
-    {"name": "Antonio Garcia", "color": "gold", "zord": ""},
-    {"name": "Lauren Shiba", "color": "red (Super Samurai II)", "zord": ""}
+    {"name": "Jayden Shiba", "color": "red", "zord": "Lion FoldingZord"}, 
+    {"name": "Mia Watanabe", "color": "pink", "zord": "Turtle FoldingZord"},
+    {"name": "Mike", "color": "green", "zord": "Bear FoldingZord"},
+    {"name": "Kevin", "color": "blue", "zord": "Dragon FoldingZord"},
+    {"name": "Emily", "color": "yellow", "zord": "Ape FoldingZord"},
+    {"name": "Antonio Garcia", "color": "gold", "zord": "OctoZord"},
+    {"name": "Lauren Shiba", "color": "red (Super Samurai II)"}
   ],
-  "Megaforce": [
-    {"name": "Troy Burrows", "color": "red", "zord": ""}, 
-    {"name": "Gia Moran", "color": "yellow", "zord": ""},
-    {"name": "Noah Carver", "color": "blue", "zord": ""},
-    {"name": "Emma Goodall", "color": "pink", "zord": ""},
-    {"name": "Jake Holling", "color": "black/green", "zord": ""},
-    {"name": "Orion", "color": "silver", "zord": ""}
+  "SuperMegaforce": [
+    {"name": "Troy Burrows", "color": "red", "zord": ["Gosei Dragon Mechazord", "Super Mega Skyship Zord"]}, 
+    {"name": "Gia Moran", "color": "yellow", "zord": ["Gosei Tiger Mechazord", "Super Mega Wheeler Zord"]},
+    {"name": "Noah Carver", "color": "blue", "zord": ["Gosei Shark Mechazord", "Super Mega Jet Zord"]},
+    {"name": "Emma Goodall", "color": "pink", "zord": ["Gosei Phoenix Mechazord", "Super Mega Sub Zord"]},
+    {"name": "Jake Holling", "color": "black/green", ["zord": "Gosei Snake Mechazord", "Super Mega Racer Zord"]},
+    {"name": "Orion", "color": "silver", "zord": "Q-Rex Drill"}
+    {"name": "Robo Knight", "zord": "Lion Mechazord"}
   ],
-  "DinoCharge": [
-    {"name": "Tyler Navarro", "color": "red", "zord": ""}, 
-    {"name": "Chase Randall", "color": "black", "zord": ""},
-    {"name": "Shelby Watkins", "color": "pink", "zord": ""},
-    {"name": "Koda", "color": "blue", "zord": ""},
-    {"name": "Riley Griffin", "color": "green", "zord": ""},
-    {"name": "Kendall Morgan", "color": "purple", "zord": ""},
-    {"name": "Sir Ivan of Zandar", "color": "gold", "zord": ""},
-    {"name": "Prince Philip III", "color": "graphite", "zord": ""},
-    {"name": "James Navarro", "color": "aqua", "zord": ""},
-    {"name": "Albert Smith", "color": "purple", "zord": ""},
-    {"name": "Zenowing", "color": "silver", "zord": ""}
+  "DinoSuperCharge": [
+    {"name": "Tyler Navarro", "color": "red", "zord": "T-Rex"}, 
+    {"name": "Chase Randall", "color": "black", "zord": "Para"},
+    {"name": "Shelby Watkins", "color": "pink", "zord": "Tricera"},
+    {"name": "Koda", "color": "blue", "zord": "Stego"},
+    {"name": "Riley Griffin", "color": "green", "zord": "Raptor"},
+    {"name": "Sir Ivan of Zandar", "color": "gold", "zord": "Ptera"},
+    {"name": "Prince Philip III", "color": "graphite", "zord": "Pachy"},
+    {"name": "James Navarro", "color": "aqua", "zord": "Ankylo"},
+    {"name": "Albert Smith/Kendall Morgan", "color": "purple", "zord": "Plesio"},
+    {"name": "Zenowing", "color": "silver", "zord": "Titano"}
   ],
   "NinjaSteel": [
     {"name": "Brody Romero", "color": "red"},
