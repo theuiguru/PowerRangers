@@ -1,7 +1,9 @@
 {
   "saga": [
     {
-      "MightyMorphin": [
+      "id": "1",
+      "name": "MightyMorphin",
+      "characters": [
         {"color": "red", "name": ["Jason Lee Scott", "Rocky DeSantos"], "zord": "Tyrannosaurus"},
         {"color": "black", "name": ["Zack Taylor", "Adam Park"], "zord": "Mastodon"},
         {"color": "blue", "name": "Billy Cranston", "zord": "Triceratops"},
@@ -11,7 +13,9 @@
       ]
     },
     {
-      "Alien": [
+      "id": "2",
+      "name": "Alien",
+      "characters": [
         {"name": "Aurico", "color": "red", "zord": "Red Battle Borg"},
         {"name": "Corcus", "color": "black", "zord": "Black Battle Borg"},
         {"name": "Cestro", "color": "blue", "zord": "Blue Battle Borg"},
@@ -20,7 +24,9 @@
       ]
     },
     {
-      "Zeo": [
+      "id": "3",
+      "name": "Zeo",
+      "characters": [
         {"name": "Katherine Hillard", "color": "pink", "zord": "Zeozord 1"},
         {"name": "Tanya Sloan", "color": "yellow", "zord": "Zeozord 2"},
         {"name": "Rocky DeSantos", "color": "blue", "zord": "Zeozord 3"},
@@ -30,7 +36,9 @@
       ]
     },
     {
-      "Turbo": [
+      "id": "4",
+      "name": "Turbo",
+      "characters": [
         {"name": ["Katherine Hillard", "Cassie Chan"], "color": "pink", "zord": "Wind Chaser Turbozord/Wind Rescue Rescuezord"},
         {"name": ["Tanya Sloan", "Ashley Hammond"], "color": "yellow", "zord": "Dune Star Turbozord/Star Racer Rescuezord"},
         {"name": ["Rocky DeSantos", "Justin Stewart"], "color": "blue", "zord": "Mountain Blaster Turbozord/Siren Blaster Rescuezord"},
@@ -39,7 +47,9 @@
       ]
     },
     {
-      "Space": [
+      "id": "5",
+      "name": "Space",
+      "characters": [
         {"name": "Cassie Chan", "color": "pink", "zord": "Mega V5 Tank Voyager"},
         {"name": "Ashley Hammond", "color": "yellow", "zord": "Mega V4 Saucer Voyager"},
         {"name": "TJ Johnson", "color": "blue", "zord": "Mega V3 Rocket Voyager"},
@@ -49,7 +59,9 @@
       ]
     },
     {
-      "LostGalaxy": [
+      "id": "6",
+      "name": "LostGalaxy",
+      "characters": [
         {"name": "Kendrix Morgan", "color": "pink", "zord": "Wildcat Galactabeast"},
         {"name": "Maya", "color": "yellow", "zord": "Wolf Galactabeast"},
         {"name": "Kai Chen", "color": "blue", "zord": "Gorilla Galactabeast"},
@@ -59,7 +71,9 @@
       ]
     },
     {
-      "LightspeedRescue": [
+      "id": "7",
+      "name": "LightspeedRescue",
+      "characters": [
         {"name": "Dana Mitchell", "color": "pink"},
         {"name": "Kelsey Winslow", "color": "yellow"},
         {"name": "Chad Lee", "color": "blue"},
@@ -69,7 +83,9 @@
       ]
     },
     {
-      "TimeForce": [
+      "id": "8",
+      "name": "TimeForce",
+      "characters": [
         {"name": "Jen Scotts", "color": "pink", "zord": "Time Flyer 5"},
         {"name": "Katie Walker", "color": "yellow", "zord": "Time Flyer 4"},
         {"name": "Lucas Kendall", "color": "blue", "zord": "Time Flyer 2"},
@@ -79,7 +95,9 @@
       ]
     },
     {
-      "WildForce": [
+      "id": "9",
+      "name": "WildForce",
+      "characters": [
         {"name": "Alyssa Enrilé", "color": "white", "zord": "White Tiger Zord"},
         {"name": "Taylor Earhardt", "color": "yellow", "zord": "Yellow Eagle Zord"},
         {"name": "Max Cooper", "color": "blue", "zord": "Blue Shark Zord"},
@@ -89,7 +107,9 @@
       ]
     },
     {
-      "NinjaStorm": [
+      "id": "10",
+      "name": "NinjaStorm",
+      "characters": [
         {"name": "Dustin Brooks", "color": "yellow", "zord": "Lionzord"},
         {"name": "Tori Hanson", "color": "blue", "zord": "Navy Beetlezord"},
         {"name": "Shane Clarke", "color": "red", "zord": "Hawkzord"},
@@ -99,7 +119,9 @@
       ]
     },
     {
-      "DinoThunder": [
+      "id": "11",
+      "name": "DinoThunder",
+      "characters": [
         {"name": "Kira Ford", "color": "yellow", "zord": "Pterazord"},
         {"name": "Ethan James", "color": "blue", "zord": "Tricerazord"},
         {"name": "Conner McKnight", "color": "red", "zord": "Tyrannozord"},
@@ -108,7 +130,9 @@
       ]
     },
     {
-      "SPD": [
+      "id": "12",
+      "name": "SPD",
+      "characters": [
         {"name": "Sydney Drew", "color": "pink", "zord": "Delta Runner 5"},
         {"name": "Schuyler (Sky) Tate", "color": "blue", "zord": "Delta Runner 2"},
         {"name": "Bridge Carson", "color": "green", "zord": "Delta Runner 3"},
@@ -122,7 +146,9 @@
       ]
     },
     {
-      "MysticForce": [
+      "id": "13",
+      "name": "MysticForce",
+      "characters": [
         {"name": "Charlie (Chip) Thorn", "color": "yellow", "zord": "Mystic Garuda"},
         {"name": "Madison Rocca", "color": "blue", "zord": "Mystic Mermaid"},
         {"name": "Vida Rocca", "color": "pink", "zord": "Mystic Sprite"},
@@ -134,7 +160,9 @@
       ]
     },
     {
-      "OperationOverdrive": [
+      "id": "14",
+      "name": "OperationOverdrive",
+      "characters": [
         {"name": "Mack Hartford", "color": "red", "zord": "Dump Driver"},
         {"name": "Veronica (Ronny) Robinson;", "color": "yellow", "zord": "Dozer Driver"},
         {"name": "William (Will) Aston;", "color": "black", "zord": "Speed Driver"},
@@ -144,7 +172,9 @@
       ]
     },
     {
-      "JungleFury": [
+      "id": "15",
+      "name": "JungleFury",
+      "characters": [
         {"name": "Casey Rhodes", "color": "red", "zord": "Tiger Animal Spirit"},
         {"name": "Theo Martin", "color": "blue", "zord": "Jaguar Animal Spirit"},
         {"name": "Lily Chilman", "color": "yellow", "zord": "Cheetah Animal Spirit"},
@@ -158,7 +188,9 @@
       ]
     },
     {
-      "RPM": [
+      "id": "16",
+      "name": "RPM",
+      "characters": [
         {"name": "Scott Truman", "color": "red", "zord": "Eagle Racer"}, 
         {"name": "Flynn McAllistair", "color": "blue", "zord": "Lion Hauler"},
         {"name": "Summer Landsdown", "color": "yellow", "zord": "Falcon Zord"},
@@ -169,7 +201,9 @@
       ]
     },
     {
-      "Samurai": [
+      "id": "17",
+      "name": "Samurai",
+      "characters": [
         {"name": "Jayden Shiba", "color": "red", "zord": "Lion FoldingZord"}, 
         {"name": "Mia Watanabe", "color": "pink", "zord": "Turtle FoldingZord"},
         {"name": "Mike", "color": "green", "zord": "Bear FoldingZord"},
@@ -180,7 +214,9 @@
       ]
     },
     {
-      "SuperMegaforce": [
+      "id": "18",
+      "name": "SuperMegaforce",
+      "characters": [
         {"name": "Troy Burrows", "color": "red", "zord": ["Gosei Dragon Mechazord", "Super Mega Skyship Zord"]}, 
         {"name": "Gia Moran", "color": "yellow", "zord": ["Gosei Tiger Mechazord", "Super Mega Wheeler Zord"]},
         {"name": "Noah Carver", "color": "blue", "zord": ["Gosei Shark Mechazord", "Super Mega Jet Zord"]},
@@ -191,7 +227,9 @@
       ]
     },
     {
-      "DinoSuperCharge": [
+      "id": "19",
+      "name": "DinoSuperCharge",
+      "characters": [
         {"name": "Tyler Navarro", "color": "red", "zord": "T-Rex"}, 
         {"name": "Chase Randall", "color": "black", "zord": "Para"},
         {"name": "Shelby Watkins", "color": "pink", "zord": "Tricera"},
@@ -205,7 +243,9 @@
       ]
     },
     {
-      "NinjaSteel": [
+      "id": "20",
+      "name": "NinjaSteel",
+      "characters": [
         {"name": "Brody Romero", "color": "red"},
         {"name": "Calvin Maxwell", "color": "yellow"},
         {"name": "Hayley Foster", "color": "white"},
