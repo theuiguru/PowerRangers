@@ -6,7 +6,7 @@
       {"color": "red", "name": ["Jason Lee Scott", "Rocky DeSantos"], "zord": "Tyrannosaurus"},
       {"color": "black", "name": ["Zack Taylor", "Adam Park"], "zord": "Mastodon"},
       {"color": "blue", "name": "Billy Cranston", "zord": "Triceratops"},
-      {"color": "yellow", " name": ["Trini Kwan", "Aisha Campbell"], "zord": "Saber-Toothed Tiger"},
+      {"color": "yellow", "name": ["Trini Kwan", "Aisha Campbell"], "zord": "Saber-Toothed Tiger"},
       {"color": "pink", "name": ["Kimberly Ann Hart", "Katherine Hillard"], "zord": "Pterodactyl"},
       {"color": ["green", "white"], "name": "Tommy Oliver", "zord": ["Dragonzord", "Tigerzord"]}
     ]
