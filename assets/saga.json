@@ -3,12 +3,12 @@
     "id": "1",
     "name": "Mighty Morphin",
     "characters": [
-      {"color": "red", "name": ["Jason Lee Scott", "Rocky DeSantos"], "zord": "Tyrannosaurus"},
-      {"color": "black", "name": ["Zack Taylor", "Adam Park"], "zord": "Mastodon"},
-      {"color": "blue", "name": "Billy Cranston", "zord": "Triceratops"},
-      {"color": "yellow", "name": ["Trini Kwan", "Aisha Campbell"], "zord": "Saber-Toothed Tiger"},
-      {"color": "pink", "name": ["Kimberly Ann Hart", "Katherine Hillard"], "zord": "Pterodactyl"},
-      {"color": ["green", "white"], "name": "Tommy Oliver", "zord": ["Dragonzord", "Tigerzord"]}
+      {"name": ["Jason Lee Scott", "Rocky DeSantos"], "color": "red", "zord": "Tyrannosaurus"},
+      {"name": ["Zack Taylor", "Adam Park"], "color": "black", "zord": "Mastodon"},
+      {"name": "Billy Cranston", "color": "blue", "zord": "Triceratops"},
+      {"name": ["Trini Kwan", "Aisha Campbell"], "color": "yellow", "zord": "Saber-Toothed Tiger"},
+      {"name": ["Kimberly Ann Hart", "Katherine Hillard"], "color": "pink", "zord": "Pterodactyl"},
+      {"name": "Tommy Oliver", "color": ["green", "white"], "zord": ["Dragonzord", "Tigerzord"]}
     ]
   },
   {
