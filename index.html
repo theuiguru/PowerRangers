@@ -7,34 +7,48 @@
 <meta name="description" content="A Power Rangers Saga DB website">
 <meta name="keywords" content="powerRangers, power, rangers, PowerRangers, saga, api, json, db, database">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><style type="text/css">
-html, body {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; background:#000; color:#fff;}
+html, body {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; background:#000;}
 a {color:#00E676; text-decoration:none;} a:hover {text-decoration:underline;}
 header {background:url(./assets/images/logo.png) no-repeat top; width:100%; height:100vh;}
-#result {cursor:pointer; overflow-y:auto; max-height:400px; color:#333;}
 .prImg {background:url(./assets/images/PowerRangers.jpg) no-repeat center; background-size:cover; height:500px;}
-footer {text-align:center; padding:20px; background:#263238;}
+footer {text-align:center; padding:20px; background:#263238; color:#fff;}
+.panel {display:none;}
 </style></head><body><div class="main"><header class="intro"></header>
-<section class="container"><input type="text" name="search" id="search" placeholder="Search Power Rangers..." autocomplete="off" class="form-control" /><ul class="list-group" id="result"></ul></section>
+<section class="container"><input type="search" class="form-control" id="search" autocomplete="off" placeholder="Search..."><table class="table"><tbody></tbody></table>
+<div class="panel panel-default">
+	<div class="panel-heading"><h3 class="panel-title">Ranger Saga Details</h3></div>
+	<div class="panel-body"></div>
+</div>
+</section>
 <section class="prImg"></section></div>
 <footer><i>A new and improved database</i>. <a href="http://powerrangers.movie" target="_blank">#GoGo</a>!</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 $(function() {
   $('.intro').on('click', function() {
     $(this).html('<iframe src="http://www.youtube.com/embed/5kIe6UZHSXw?rel=0&autoplay=1&controls=0&showinfo=0&autohide=1" width="100%" height="100%" frameborder="0" allowfullscreen="true">').css('background', 'none');
   });
   $('#search').keyup(function() {
-	$('#result').html('');
-	var search = $('#search').val();
-	var exp = new RegExp(search, 'i');
-	$.getJSON('assets/saga.json', function(data) {
+	$.getJSON("http://theuiguru.github.io/PowerRangers/assets/saga.json", function(data) {
+		var search = $('#search').val();
+		var regex = new RegExp(search, 'i');
+		var output, output2;
 		$.each(data, function(key, val) {
-			if((val.id.search(exp) != -1) || (val.name.search(exp) != -1)) {
-				$('#result').append('<li class="list-group-item">'+val.name+'</li>');
+			if(val.name.search(regex) != -1) {
+				output += "<tr class='prName'><td id='"+key+"'><a>"+val.name+"</a></td></tr>";
+				for(var i=0; i<val.characters.length; i++) {
+					output2 += "<li>" + val.characters[i].color + ": " + val.characters[i].name + "</li>";
+				}
 			}
 		});
+		$('tbody').html(output);
+
+		$('.panel').show(function() {
+	  		$('.prName a').click(function() {
+	  			$('.panel-body').html(output2); 
+	  		});
+	  	});
 	});
-   });
+  });
 });
 </script></body></html>
