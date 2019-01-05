@@ -15,7 +15,7 @@ footer {text-align:center; padding:20px; background:#263238; color:#fff;}
 .panel {display:none;}
 </style></head><body><div class="main"><header class="intro"></header>
 <section class="container"><input type="search" class="form-control" id="search" autocomplete="off" placeholder="Search..."><table class="table"><tbody></tbody></table>
-<div class="panel panel-default">
+<div class="panel panel-warning">
 	<div class="panel-heading"><h3 class="panel-title">Ranger Saga Details</h3></div>
 	<div class="panel-body"></div>
 </div>
@@ -35,16 +35,15 @@ $(function() {
 		var output, output2;
 		$.each(data, function(key, val) {
 			if(val.name.search(regex) != -1) {
-				output += "<tr class='prName'><td id='"+key+"'><a>"+val.name+"</a></td></tr>";
+				output += "<tr><td id='"+key+"'><a class='prName'>"+val.name+"</a></td></tr>";
 				for(var i=0; i<val.characters.length; i++) {
-					output2 += "<li>" + val.characters[i].color + ": " + val.characters[i].name + "</li>";
+					output2 += "<li><b>" + val.characters[i].color + " ranger</b>: " + val.characters[i].name + "</li>";
 				}
 			}
 		});
 		$('tbody').html(output);
-
-		$('.panel').show(function() {
-	  		$('.prName a').click(function() {
+		$('.panel').show('fast', function() {
+	  		$('a.prName').click(function() {
 	  			$('.panel-body').html(output2); 
 	  		});
 	  	});
