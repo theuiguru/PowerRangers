@@ -24,17 +24,18 @@ $(function() {
   $('.intro').on('click', function() {
     $(this).html('<iframe src="http://www.youtube.com/embed/5kIe6UZHSXw?rel=0&autoplay=1&controls=0&showinfo=0&autohide=1" width="100%" height="100%" frameborder="0" allowfullscreen="true">').css('background', 'none');
   });
-  $('#search').keydown(function() {
+  $('#search').keyup(function() {
+  	$(".list-group").html("");
 	$.getJSON("http://theuiguru.github.io/PowerRangers/assets/saga.json", function(data) {
 		var search = $('#search').val();
 		var regex = new RegExp(search, 'i');
 		var output;
 		$.each(data, function(key, val) {
 			if((val.id.search(regex) != -1) || (val.name.search(regex) != -1)) {
-				output += "<button type='button' class='list-group-item' id='"+key+"'>"+val.name+"</button>";
+				$(".list-group").append("<button type='button' class='list-group-item'>"+val.name+"</button>");
 			}
 		});
-		$('.list-group').html(output);
+		//$(".list-group").html(output);
 	});
   });
 });
