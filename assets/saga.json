@@ -9,7 +9,8 @@
       {"name": ["Trini Kwan", "Aisha Campbell"], "color": "yellow", "zord": "Saber-Toothed Tiger"},
       {"name": ["Kimberly Ann Hart", "Katherine Hillard"], "color": "pink", "zord": "Pterodactyl"},
       {"name": "Tommy Oliver", "color": ["green", "white"], "zord": ["Dragonzord", "Tigerzord"]}
-    ]
+    ],
+    "start_year": "1993"
   },
   {
     "id": "2",
@@ -20,7 +21,8 @@
       {"name": "Cestro", "color": "blue", "zord": "Blue Battle Borg"},
       {"name": "Tideus", "color": "yellow", "zord": "Yellow Battle Borg"},
       {"name": "Delphine", "color": "white", "zord": "White Battle Borg"}
-    ]
+    ],
+    "start_year": "1996"
   },
   {
     "id": "3",
@@ -32,7 +34,8 @@
       {"name": "Adam Park", "color": "green", "zord": "Zeozord 4"},
       {"name": "Tommy Oliver", "color": "red", "zord": "Zeozord 5"},
       {"name": ["Jason Scott", "Trey of Triforia"], "color": "gold"}
-    ]
+    ],
+    "start_year": "1996"
   },
   {
     "id": "4",
@@ -43,7 +46,8 @@
       {"name": ["Rocky DeSantos", "Justin Stewart"], "color": "blue", "zord": "Mountain Blaster Turbozord/Siren Blaster Rescuezord"},
       {"name": ["Adam Park", "Carlos Vallerte"], "color": "green", "zord": "Desert Thunder Turbozord/Thunder Loader Rescuezord"},
       {"name": ["Tommy Oliver", "TJ Johnson"], "color": "red", "zord": "Red Lightning Turbozord/Lightning Fire Tamer Rescuezord"}
-    ]
+    ],
+    "start_year": "1997"
   },
   {
     "id": "5",
@@ -55,7 +59,8 @@
       {"name": "Carlos Vallerte", "color": "black", "zord": "Mega V2 Shuttle Voyager"},
       {"name": "Andros", "color": "red", "zord": "Mega V1 Robo Voyager"},
       {"name": "Zhane", "color": "silver", "zord": "Mega Winger"}
-    ]
+    ],
+    "start_year": "1998"
   },
   {
     "id": "6",
@@ -67,7 +72,8 @@
       {"name": "Damon Henderson", "color": "green", "zord": "Condor Galactabeast"},
       {"name": "Leo Corbett", "color": "red", "zord": "Lion Galactabeast"},
       {"name": "Mike Corbett", "color": "magna defender", "zord": ""}
-    ]
+    ],
+    "start_year": "1999"
   },
   {
     "id": "7",
@@ -79,7 +85,8 @@
       {"name": "Joel Rawlings", "color": "green"},
       {"name": "Carter Grayson", "color": "red"},
       {"name": "Ryan Mitchell", "color": "titanium"}
-    ]
+    ],
+    "start_year": "2000"
   },
   {
     "id": "8",
@@ -91,7 +98,8 @@
       {"name": "Trip", "color": "green", "zord": "Time Flyer 3"},
       {"name": "Wes Collins", "color": "red", "zord": "Time Flyer 1"},
       {"name": "Eric Myers", "color": "quantum", "zord": "Quantasaurus Rex"}
-    ]
+    ],
+    "start_year": "2001"
   },
   {
     "id": "9",
@@ -103,7 +111,8 @@
       {"name": "Danny Delgado", "color": "black", "zord": "Black Bison Zord"},
       {"name": "Cole Evans", "color": "red", "zord": "Red Lion Zord"},
       {"name": "Merrick Baliton", "color": "lunar wolf", "zord": "Elephant Zord"}
-    ]
+    ],
+    "start_year": "2002"
   },
   {
     "id": "10",
@@ -115,7 +124,8 @@
       {"name": "Hunter Bradley", "color": "crimson", "zord": "Crimson Insectizord"},
       {"name": "Blake Bradley", "color": "navy", "zord": "Navy Beetlezord"},
       {"name": "Cam", "color": "green", "zord": "Samurai Star Megazord"}
-    ]
+    ],
+    "start_year": "2003"
   },
   {
     "id": "11",
@@ -126,7 +136,8 @@
       {"name": "Conner McKnight", "color": "red", "zord": "Tyrannozord"},
       {"name": "Dr. Tommy Oliver", "color": "black", "zord": "Stegozord (when combined with Dragozord)"},
       {"name": "Trent Fernandez-Mercer", "color": "white", "zord": "Dragozord"}
-    ]
+    ],
+    "start_year": "2004"
   },
   {
     "id": "12",
@@ -142,7 +153,8 @@
       {"name": "Kat", "color": "kat"},
       {"name": "Nova", "color": "nova"},
       {"name": "Boom", "color": "orange"}
-    ]
+    ],
+    "start_year": "2005"
   },
   {
     "id": "13",
@@ -156,7 +168,8 @@
       {"name": "Udonna", "color": "white"},
       {"name": "Daggeron", "color": "Solaris Knight", "zord": "Solar Streak"},
       {"name": "Leanbow", "color": "Wolf Warrior", "zord": "Catastros (horse)"}
-    ]
+    ],
+    "start_year": "2006"
   },
   {
     "id": "14",
@@ -168,7 +181,8 @@
       {"name": "Rose Ortiz", "color": "pink", "zord": "Sub Driver"},
       {"name": "Dax Lo", "color": "blue", "zord": "Gyro Driver"},
       {"name": "Tyzonn", "color": "mercury"}
-    ]
+    ],
+    "start_year": "2007"
   },
   {
     "id": "15",
@@ -184,7 +198,8 @@
       {"name": "Shark Spirit Ranger", "zord": "Shark"},
       {"name": "Jarrod", "color": "Black Lion Warrior", "zord": "Lion"},
       {"name": "Camille", "color": "Green Chameleon Warrior", "zord": "Chameleon"}
-    ]
+    ],
+    "start_year": "2008"
   },
   {
     "id": "16",
@@ -197,7 +212,8 @@
       {"name": "Dillon", "color": "black", "zord": "Wolf Cruiser"},
       {"name": "Gem", "color": "gold", "zord": "Whale Zord"},
       {"name": "Gemma", "color": "silver", "zord": "Tiger Jet"}
-    ]
+    ],
+    "start_year": "2009"
   },
   {
     "id": "17",
@@ -210,7 +226,8 @@
       {"name": "Emily", "color": "yellow", "zord": "Ape FoldingZord"},
       {"name": "Antonio Garcia", "color": "gold", "zord": "OctoZord"},
       {"name": "Lauren Shiba", "color": "red (Super Samurai II)"}
-    ]
+    ],
+    "start_year": "2011"
   },
   {
     "id": "18",
@@ -223,7 +240,8 @@
       {"name": "Jake Holling", "color": "black/green", "zord": ["Gosei Snake Mechazord", "Super Mega Racer Zord"]},
       {"name": "Orion", "color": "silver", "zord": "Q-Rex Drill"},
       {"name": "Robo Knight", "zord": "Lion Mechazord"}
-    ]
+    ],
+    "start_year": "2014"
   },
   {
     "id": "19",
@@ -239,7 +257,8 @@
       {"name": "James Navarro", "color": "aqua", "zord": "Ankylo"},
       {"name": "Albert Smith/Kendall Morgan", "color": "purple", "zord": "Plesio"},
       {"name": "Zenowing", "color": "silver", "zord": "Titano"}
-    ]
+    ],
+    "start_year": "2016"
   },
   {
     "id": "20",
@@ -251,6 +270,13 @@
       {"name": "Preston Tien", "color": "blue"},
       {"name": "Sarah Thompson", "color": "pink"},
       {"name": "Aiden Romero/Levi Weston", "color": "gold"}
-    ]
+    ],
+    "start_year": "2017"
+  },
+  {
+    "id": "21",
+    "name": "Beast Morphers",
+    "characters": [],
+    "start_year": "2019"
   }
 ]
