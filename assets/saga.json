@@ -276,7 +276,13 @@
   {
     "id": "21",
     "name": "Beast Morphers",
-    "characters": [],
+    "characters": [
+      {"name": "Devon Daniels", "color": "red"},
+      {"name": "Ravi Shaw", "color": "blue"},
+      {"name": "Zoey Reeves", "color": "yellow"},
+      {"name": "Nate Silva", "color": "gold"},
+      {"name": "Steel", "color": "silver"}
+    ],
     "start_year": "2019"
   }
 ]
