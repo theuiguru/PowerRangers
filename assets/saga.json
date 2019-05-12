@@ -217,7 +217,7 @@
   },
   {
     "id": "17",
-    "name": "Samurai",
+    "name": "Samurai and Super Samurai",
     "characters": [
       {"name": "Jayden Shiba", "color": "red", "zord": "Lion FoldingZord"}, 
       {"name": "Mia Watanabe", "color": "pink", "zord": "Turtle FoldingZord"},
@@ -231,7 +231,7 @@
   },
   {
     "id": "18",
-    "name": "Super Megaforce",
+    "name": "Megaforce and Super Megaforce",
     "characters": [
       {"name": "Troy Burrows", "color": "red", "zord": ["Gosei Dragon Mechazord", "Super Mega Skyship Zord"]}, 
       {"name": "Gia Moran", "color": "yellow", "zord": ["Gosei Tiger Mechazord", "Super Mega Wheeler Zord"]},
@@ -245,7 +245,7 @@
   },
   {
     "id": "19",
-    "name": "Dino Super Charge",
+    "name": "Dino Charg and Dino Super Charge",
     "characters": [
       {"name": "Tyler Navarro", "color": "red", "zord": "T-Rex"}, 
       {"name": "Chase Randall", "color": "black", "zord": "Para"},
@@ -262,7 +262,7 @@
   },
   {
     "id": "20",
-    "name": "Ninja Steel",
+    "name": "Ninja Steel and Super Ninja Steel",
     "characters": [
       {"name": "Brody Romero", "color": "red"},
       {"name": "Calvin Maxwell", "color": "yellow"},
