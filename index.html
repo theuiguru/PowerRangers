@@ -8,14 +8,15 @@
 <meta name="apple-mobile-web-app-title" content="Power Rangers">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><style type="text/css">
 html, body {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; background:#000;}
-header {background:#000 url(./assets/images/logo.png) no-repeat top; width:100%; height:100vh;}
+.wrapper {display:grid; grid-template-columns:repeat(2, 1fr);}
+header {background:#000 url(./assets/images/logo.png) no-repeat top; width:50vw; height:100vh;}
 .search {position:sticky; top:0; background:#000; padding-top:20px;}
 .prbg {background:url(./assets/images/PowerRangers.jpg) no-repeat center; background-size:cover; height:500px;}
 footer {text-align:center; padding:20px; background:#263238; color:#fff;}
 footer a {color:#00E676; text-decoration:none;} footer a:hover {text-decoration:underline;}
-@media(max-width:700px) { header, .prbg {background-size:contain; height:400px;} }
+@media(max-width:700px) { .wrapper {display:block;} header, .prbg {background-size:contain; width:100%; height:400px;} }
 </style></head><body><div class="wrapper"><header class="intro"></header>
-<section class="search"><div class="container"><input type="search" class="form-control" id="search" autocomplete="off" placeholder="Search..."><div class="list-group"></div></div></section><section class="prbg"></section></div>
+<section class="search"><div class="container"><input type="search" class="form-control" id="search" autocomplete="off" placeholder="Search..."><div class="list-group"></div></div></section></div><section class="prbg"></section>
 <footer><i>A new and improved database</i>. <a href="http://powerrangers.movie" target="_blank">#GoGo</a>!</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><script type="text/javascript">
 $(function() {
