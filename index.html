@@ -6,35 +6,50 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Power Rangers">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><style type="text/css">
-html, body {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; background:#000;}
-.wrapper {display:grid; grid-template-columns:repeat(2, 1fr);}
-header {background:#000 url(./assets/images/logo.png) no-repeat top; width:50vw; height:100vh;}
-.search {background:#000; padding-top:20px;}
-.prbg {background:url(./assets/images/PowerRangers.jpg) no-repeat center; background-size:cover; height:500px;}
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.css"><style type="text/css">
+section.prbg {background:url(http://theuiguru.github.io/PowerRangers/assets/images/PowerRangers.jpg) no-repeat center; background-size:cover; height:500px;}
 footer {text-align:center; padding:20px; background:#263238; color:#fff;}
 footer a {color:#00E676; text-decoration:none;} footer a:hover {text-decoration:underline;}
-@media(max-width:800px) { .wrapper {display:block;} header, .prbg {background-size:contain; width:100%; height:400px;} }
-</style></head><body><div class="wrapper"><header class="intro"></header>
-<section class="search"><div class="container"><input type="search" class="form-control" id="search" autocomplete="off" placeholder="Search..."><div class="list-group"></div></div></section></div>
-<footer><i>A new and improved database</i>. <a href="http://powerrangers.movie" target="_blank">#GoGo</a>!</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script><script type="text/javascript">
-$(function() {
-  $('.intro').on('click', function() {
-    $(this).html('<iframe src="http://www.youtube.com/embed/5kIe6UZHSXw?rel=0&autoplay=1&controls=0&showinfo=0&autohide=1" width="100%" height="100%" frameborder="0" allowfullscreen="true">').css('background', 'none');
+</style></head><body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="https://66.media.tumblr.com/22c4e33a9e71bd3d5eb2389a0b6c4b44/tumblr_os0f4r0Mzo1vazevxo1_400.png" width="80" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navbarColor02"><input type="text" autocomplete="off" class="form-control form-control-lg" id="search" placeholder="Enter search term..."></div>
+</nav>
+<div class="container mt-5"><div class="row"><div class="col-md-6 m-auto"><div id="match-list"></div></div></div></div>
+<section class="prbg"></section><footer><i>A new and improved database</i>. <a href="http://powerrangers.movie" target="_blank">#GoGo</a>!</footer>
+<script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+<script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.min.js"></script><script>
+const search = document.getElementById("search");
+const matchList = document.getElementById("match-list");
+const searchStates = async searchText => {
+  const res = await fetch('https://raw.githubusercontent.com/theuiguru/PowerRangers/gh-pages/assets/saga.json')
+  const states = await res.json();
+  
+  let matches = states.filter(state => {
+    const regex = new RegExp(`^${searchText}`, 'gi');
+    return state.name.match(regex);
   });
-  $('#search').keyup(function() {
-  	$(".list-group").html("");
-	$.getJSON("http://theuiguru.github.io/PowerRangers/assets/saga.json", function(data) {
-		var search = $('#search').val();
-		var regex = new RegExp(search, 'i');
-		var output;
-		$.each(data, function(key, val) {
-			if((val.id.search(regex) != -1) || (val.name.search(regex) != -1)) {
-				$(".list-group").append("<button type='button' class='list-group-item'>"+val.name+"</button>");
-			}
-		});
-	});
-  });
-});
+  
+  if(searchText.length === 0) {
+    matches = [];
+    matchList.innerHTML = '';
+  }
+  
+  outputHtml(matches);
+}
+const outputHtml = matches => {
+  if(matches.length > 0) {
+    const html = matches.map(match => `
+      <div class="card card-body mb-1">
+        <h4><span class="text-success">${match.id}</span> ${match.name} (${match.start_year})</h4>
+        <small>No. of Characters: ${match.characters.length}</small>
+      </div>
+    `).join('');
+    
+    matchList.innerHTML = html;
+  }
+};
+search.addEventListener("input", () => searchStates(search.value));
 </script></body></html>
