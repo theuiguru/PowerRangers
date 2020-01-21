@@ -28,17 +28,14 @@ const matchList = document.getElementById("match-list");
 const searchStates = async searchText => {
   const res = await fetch('https://raw.githubusercontent.com/theuiguru/PowerRangers/gh-pages/assets/saga.json')
   const states = await res.json();
-  
   let matches = states.filter(state => {
     const regex = new RegExp(`^${searchText}`, 'gi');
     return state.name.match(regex);
-  });
-  
+  });  
   if(searchText.length === 0) {
     matches = [];
     matchList.innerHTML = '';
   }
-  
   outputHtml(matches);
 }
 const outputHtml = matches => {
@@ -49,7 +46,6 @@ const outputHtml = matches => {
         <small>No. of Characters: ${match.characters.length}</small>
       </div>
     `).join('');
-    
     matchList.innerHTML = html;
   }
 };
