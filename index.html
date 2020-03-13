@@ -1,32 +1,28 @@
-<!DOCTYPE html><html><head><title>Power Rangers</title>
-<meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html><html><head><title>Power Rangers</title><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="author" content="Chris Thomas">
 <meta name="description" content="A Power Rangers DB website">
 <meta name="keywords" content="powerRangers, power, rangers, PowerRangers, saga, api, json, db, database">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Power Rangers">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-<link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.css"><style type="text/css">
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {background:#000 !important;}
-a.navbar-brand {padding:0;}  
-section.prbg {background:url(./assets/images/PowerRangers.jpg) no-repeat center; background-size:cover; height:500px;}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"><style>
+html, body {margin:0; padding:0;}
+header {display:grid; grid-template-columns:2fr 2fr;}
+aside {background:#000 url(https://theuiguru.github.io/PowerRangers/assets/images/logo.png) no-repeat fixed left; height:100vh;}
+section {background:#212121;}
+.card-body {background:#263238; color:#fff;}
 footer {text-align:center; padding:20px; background:#263238; color:#fff;}
-footer a {color:#00E676; text-decoration:none;} footer a:hover {text-decoration:underline;}
+footer a {color:#00E676;}
+@media(max-width:1400px) { aside {background-size:50%;} }
+@media(max-width:900px) { header {display:block;} aside {background-size:cover;} section {height:400px;} }
 </style></head><body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" width="80" alt=""></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-  <div class="collapse navbar-collapse" id="navbarColor02"><input type="text" autocomplete="off" class="form-control form-control-lg" id="search" placeholder="Enter search term..."></div>
-</nav>
-<div class="container mt-5"><div class="row"><div class="col-md-6 m-auto"><div id="match-list"></div></div></div></div>
-<section class="prbg"></section><footer><i>A new and improved database</i>. <a href="http://powerrangers.movie" target="_blank">#GoGo</a>!</footer>
-<script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
-<script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.min.js"></script><script>
+<header><aside></aside><section class="d-flex justify-content-center align-items-center"><div class="container"><form><input type="text" id="search" name="search" class="form-control" autocomplete="off" placeholder="Search..."></form><div id="match-list"></div></div></section></header>
+<footer><i>A new and improved database</i>. <a href="http://powerrangers.movie" target="_blank">#GoGo</a>!</footer><script>
 const search = document.getElementById("search");
 const matchList = document.getElementById("match-list");
 const searchStates = async searchText => {
-  const res = await fetch('https://raw.githubusercontent.com/theuiguru/PowerRangers/gh-pages/assets/saga.json')
+  const res = await fetch('https://theuiguru.github.io/PowerRangers/assets/saga.json')
   const states = await res.json();
   let matches = states.filter(state => {
     const regex = new RegExp(`^${searchText}`, 'gi');
