@@ -20,7 +20,7 @@ footer a {color:#00E676;}
 </style></head><body>
 <header><aside></aside><section class="d-flex justify-content-center align-items-center"><div class="container"><form><input type="text" id="search" name="search" class="form-control form-control-lg" autocomplete="off" placeholder="Search..."></form><div id="match-list"></div></div></section></header>
 <footer>&copy; <span class="year"></span> | <i>A new and improved database</i>. <a href="http://powerrangers.movie" target="_blank">#GoGo</a>!</footer><script>
-const year = document.querySelector('.year').innerText = new Date().getFullYear();
+const year = document.querySelector('.year').textContent = new Date().getFullYear();
 const search = document.getElementById("search");
 const matchList = document.getElementById("match-list");
 const searchStates = async searchText => {
