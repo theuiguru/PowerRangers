@@ -9,16 +9,16 @@
 <link rel="manifest" href="site.webmanifest">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"><style>
 html, body {margin:0; padding:0;}
-header {display:grid; grid-template-columns:2fr 2fr;}
-aside {background:#000 url(./assets/images/logo.png) no-repeat fixed left; height:100vh;}
+main {display:grid; grid-template-columns:2fr 2fr;}
+header {background:#000 url(./assets/images/logo.png) no-repeat fixed left; height:100vh;}
 section {background:#212121;}
 .card-body {background:#263238; color:#fff;}
 footer {text-align:center; padding:20px; background:#263238; color:#fff;}
 footer a {color:#00E676;}
-@media(max-width:1400px) { aside {background-size:contain;} }
-@media(max-width:900px) { header {display:block;} aside {background-size:cover;} section {height:400px;} }
+@media(max-width:1400px) { header {background-size:contain;} }
+@media(max-width:900px) { main {display:block;} header {background-size:cover;} section {height:400px;} }
 </style></head><body>
-<header><aside></aside><section class="d-flex justify-content-center align-items-center"><div class="container"><form><input type="text" id="search" name="search" class="form-control form-control-lg" autocomplete="off" placeholder="Search..."></form><div id="match-list"></div></div></section></header>
+<main><header></header><section class="d-flex justify-content-center align-items-center"><div class="container"><form><input type="text" id="search" name="search" class="form-control form-control-lg" autocomplete="off" placeholder="Search..."></form><div id="match-list"></div></div></section></main>
 <footer>&copy; <span class="year"></span> <a href="http://powerrangers.movie" target="_blank">#GoGo</a>!</footer><script>
 const year = document.querySelector('.year').textContent = new Date().getFullYear();
 const search = document.getElementById("search");
