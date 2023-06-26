@@ -38,7 +38,7 @@ const outputHtml = matches => {
   if(matches.length > 0) {
     const html = matches.map(match => `
       <div class="card card-body mb-1">
-        <h4>Season <span class="text-success">${match.id}</span> ${match.name} (<span class="text-warning">${match.start_year}</span>)</h4>
+        <h4><span class="text-success">Season ${match.id}</span>: ${match.name} (<span class="text-warning">${match.start_year}</span>)</h4>
         <small>No. of Characters: ${match.characters.length}</small>
       </div>
     `).join('');
