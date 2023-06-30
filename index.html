@@ -39,7 +39,7 @@ const outputHtml = matches => {
     const html = matches.map(match => `
       <div class="card card-body mb-1">
         <h4><span class="text-success">Season ${match.id}</span>: ${match.name} (<span class="text-warning">${match.start_year}</span>)</h4>
-        <small>No. of Characters: <span class="text-danger">${match.characters.length}</span></small>
+        <p class="fs-6">No. of Characters: <span class="text-danger">${match.characters.length}</span></p>
       </div>
     `).join('');
     matchList.innerHTML = html;
