@@ -296,5 +296,21 @@
       {"name": "Katherine Hillard", "color": "pink"}
     ],
     "start_year": "2023"
+  },
+  {
+    "id": "23",
+    "name": "Cosmic Fury",
+    "characters": [
+      {"name": "Zayto", "color": "zenith"},
+      {"name": "Amelia Jones", "color": "red"},
+      {"name": "Ollie Akana", "color": "blue"},
+      {"name": "Izzy Garcia", "color": "green"},
+      {"name": "Javi Garcia", "color": "black"},
+      {"name": "Aiyon", "color": "gold"},
+      {"name": "Fern", "color": "orange"},
+      {"name": "Billy Cranston", "color": "blue"},
+      {"name": "Mick Kanic", "color": "ninja steel red"}
+    ],
+    "start_year": "2023"
   }
 ]
