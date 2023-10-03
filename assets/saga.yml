@@ -1,4 +1,4 @@
-- id: '1'
+- id: 1
   name: Mighty Morphin
   characters:
     - name:
@@ -32,7 +32,7 @@
         - Dragonzord
         - Tigerzord
   start_year: '1993'
-- id: '2'
+- id: 2
   name: Alien
   characters:
     - name: Aurico
@@ -51,7 +51,7 @@
       color: white
       zord: White Battle Borg
   start_year: '1996'
-- id: '3'
+- id: 3
   name: Zeo
   characters:
     - name: Katherine Hillard
@@ -74,7 +74,7 @@
         - Trey of Triforia
       color: gold
   start_year: '1996'
-- id: '4'
+- id: 4
   name: Turbo
   characters:
     - name:
@@ -103,7 +103,7 @@
       color: red
       zord: Red Lightning Turbozord/Lightning Fire Tamer Rescuezord
   start_year: '1997'
-- id: '5'
+- id: 5
   name: Space
   characters:
     - name: Cassie Chan
@@ -125,7 +125,7 @@
       color: silver
       zord: Mega Winger
   start_year: '1998'
-- id: '6'
+- id: 6
   name: Lost Galaxy
   characters:
     - name: Kendrix Morgan
@@ -147,7 +147,7 @@
       color: magna defender
       zord: ''
   start_year: '1999'
-- id: '7'
+- id: 7
   name: Lightspeed Rescue
   characters:
     - name: Dana Mitchell
@@ -163,7 +163,7 @@
     - name: Ryan Mitchell
       color: titanium
   start_year: '2000'
-- id: '8'
+- id: 8
   name: Time Force
   characters:
     - name: Jen Scotts
@@ -185,7 +185,7 @@
       color: quantum
       zord: Quantasaurus Rex
   start_year: '2001'
-- id: '9'
+- id: 9
   name: Wild Force
   characters:
     - name: Alyssa Enrilé
@@ -207,7 +207,7 @@
       color: lunar wolf
       zord: Elephant Zord
   start_year: '2002'
-- id: '10'
+- id: 10
   name: Ninja Storm
   characters:
     - name: Dustin Brooks
@@ -229,7 +229,7 @@
       color: green
       zord: Samurai Star Megazord
   start_year: '2003'
-- id: '11'
+- id: 11
   name: Dino Thunder
   characters:
     - name: Kira Ford
@@ -248,7 +248,7 @@
       color: white
       zord: Dragozord
   start_year: '2004'
-- id: '12'
+- id: 12
   name: SPD
   characters:
     - name: Sydney Drew
@@ -279,7 +279,7 @@
     - name: Boom
       color: orange
   start_year: '2005'
-- id: '13'
+- id: 13
   name: Mystic Force
   characters:
     - name: Charlie (Chip) Thorn
@@ -306,7 +306,7 @@
       color: Wolf Warrior
       zord: Catastros (horse)
   start_year: '2006'
-- id: '14'
+- id: 14
   name: Operation Overdrive
   characters:
     - name: Mack Hartford
@@ -327,7 +327,7 @@
     - name: Tyzonn
       color: mercury
   start_year: '2007'
-- id: '15'
+- id: 15
   name: Jungle Fury
   characters:
     - name: Casey Rhodes
@@ -358,7 +358,7 @@
       color: Green Chameleon Warrior
       zord: Chameleon
   start_year: '2008'
-- id: '16'
+- id: 16
   name: RPM
   characters:
     - name: Scott Truman
@@ -383,7 +383,7 @@
       color: silver
       zord: Tiger Jet
   start_year: '2009'
-- id: '17'
+- id: 17
   name: Samurai and Super Samurai
   characters:
     - name: Jayden Shiba
@@ -407,7 +407,7 @@
     - name: Lauren Shiba
       color: red (Super Samurai II)
   start_year: '2011'
-- id: '18'
+- id: 18
   name: Megaforce and Super Megaforce
   characters:
     - name: Troy Burrows
@@ -441,7 +441,7 @@
     - name: Robo Knight
       zord: Lion Mechazord
   start_year: '2014'
-- id: '19'
+- id: 19
   name: Dino Charge and Dino Super Charge
   characters:
     - name: Tyler Navarro
@@ -475,7 +475,7 @@
       color: silver
       zord: Titano
   start_year: '2016'
-- id: '20'
+- id: 20
   name: Ninja Steel and Super Ninja Steel
   characters:
     - name: Brody Romero
@@ -491,7 +491,7 @@
     - name: Aiden Romero/Levi Weston
       color: gold
   start_year: '2017'
-- id: '21'
+- id: 21
   name: Beast Morphers
   characters:
     - name: Devon Daniels
@@ -505,7 +505,7 @@
     - name: Steel
       color: silver
   start_year: '2019'
-- id: '22'
+- id: 22
   name: Once and Always
   characters:
     - name: Rocky DeSantos
@@ -518,3 +518,5 @@
       color: black
     - name: Katherine Hillard
       color: pink
+- id: 23
+  name: Cosmic Fury
