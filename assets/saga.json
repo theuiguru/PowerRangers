@@ -119,10 +119,10 @@
     "name": "Ninja Storm",
     "characters": [
       {"name": "Dustin Brooks", "color": "yellow", "zord": "Lionzord"},
-      {"name": "Tori Hanson", "color": "blue", "zord": "Navy Beetlezord"},
+      {"name": "Tori Hanson", "color": "blue", "zord": "Dolphinzord"},
       {"name": "Shane Clarke", "color": "red", "zord": "Hawkzord"},
-      {"name": "Hunter Bradley", "color": "crimson", "zord": "Crimson Insectizord"},
-      {"name": "Blake Bradley", "color": "navy", "zord": "Navy Beetlezord"},
+      {"name": "Hunter Bradley", "color": "crimson", "zord": "Insectizord"},
+      {"name": "Blake Bradley", "color": "navy", "zord": "Beetlezord"},
       {"name": "Cam", "color": "green", "zord": "Samurai Star Megazord"}
     ],
     "start_year": "2003"
@@ -134,7 +134,7 @@
       {"name": "Kira Ford", "color": "yellow", "zord": "Pterazord"},
       {"name": "Ethan James", "color": "blue", "zord": "Tricerazord"},
       {"name": "Conner McKnight", "color": "red", "zord": "Tyrannozord"},
-      {"name": "Dr. Tommy Oliver", "color": "black", "zord": "Stegozord (when combined with Dragozord)"},
+      {"name": "Dr. Tommy Oliver", "color": "black", "zord": "Stegozord"},
       {"name": "Trent Fernandez-Mercer", "color": "white", "zord": "Dragozord"}
     ],
     "start_year": "2004"
