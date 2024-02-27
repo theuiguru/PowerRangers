@@ -14,9 +14,13 @@ section {background:#202020;}
 .card-body {background:#263238; color:#fff;}
 footer {text-align:center; padding:20px; background:#263238; color:#fff;}
 footer a, footer a:hover {color:#00E676;}
+/*
+.display-none {position:fixed; opacity:0; top:0; left:0; width:100%; height:100vh; background:#223563; z-index:-10; color:#fff; text-align:center; display:flex; justify-content:center; align-items:center; transition:all 0.5s;}
+.splash {position:fixed; top:0; left:0; width:100%; height:100vh; z-index:10; display:flex; justify-content:center; align-items:center;}
+*/
 @media(max-width:1400px) { header {background-size:contain;} }
 @media(max-width:900px) { main {display:block;} header {background-size:cover;} section {height:400px;} }
-</style></head><body><main><header></header><section class="d-flex justify-content-center align-items-center"><div class="container"><form><input type="text" id="search" name="search" class="form-control form-control-lg" autocomplete="off" placeholder="Search saga..."></form><div id="match-list"></div></div></section></main>
+</style></head><body><!--<div class="splash"></div>--><main><header></header><section class="d-flex justify-content-center align-items-center"><div class="container"><form><input type="text" id="search" name="search" class="form-control form-control-lg" autocomplete="off" placeholder="Search saga..."></form><div id="match-list"></div></div></section></main>
 <footer>&copy; <span class="year"></span> <a href="https://youtube.com/@PowerRangersOfficial" target="_blank">#GoGo</a>!</footer><script>
 const year = document.querySelector('.year').textContent = new Date().getFullYear();
 const search = document.getElementById("search");
