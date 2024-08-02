@@ -67,6 +67,7 @@
     "name": "Lost Galaxy",
     "characters": [
       {"name": "Kendrix Morgan", "color": "pink", "zord": "Wildcat Galactabeast"},
+      {"name": "Karone", "color": "pink", "zord": "Wildcat Galactabeast"},
       {"name": "Maya", "color": "yellow", "zord": "Wolf Galactabeast"},
       {"name": "Kai Chen", "color": "blue", "zord": "Gorilla Galactabeast"},
       {"name": "Damon Henderson", "color": "green", "zord": "Condor Galactabeast"},
