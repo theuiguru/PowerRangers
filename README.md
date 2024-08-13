@@ -1,4 +1,4 @@
-# PowerRangers
+# ![Power Rangers](https://static.wikia.nocookie.net/powerrangers/images/3/36/PR_2018_Logo.png)
 Power Rangers API
 
 A new and improved Power Rangers database [#GoGo!](https://powerrangers.movie)
