@@ -288,6 +288,20 @@
   },
   {
     "id": "22",
+    "name": "Dino Fury",
+    "characters": [
+      {"name": "Zayto", "color": "red/zenith"},
+      {"name": "Ollie Akana", "color": "blue"},
+      {"name": "Amelia Jones", "color": "pink"},
+      {"name": "Izzy Garcia", "color": "green"},
+      {"name": "Javi Garcia", "color": "black"},
+      {"name": "Aiyon", "color": "gold"},
+      {"name": "Tarrick", "color": "Void Knight"}
+    ],
+    "start_year": "2021"
+  },
+  {
+    "id": "23",
     "name": "Once and Always",
     "characters": [
       {"name": "Rocky DeSantos", "color": "red"},
@@ -299,7 +313,7 @@
     "start_year": "2023"
   },
   {
-    "id": "23",
+    "id": "24",
     "name": "Cosmic Fury",
     "characters": [
       {"name": "Zayto", "color": "zenith"},
