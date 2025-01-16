@@ -1,6 +1,6 @@
 <img src="https://static.wikia.nocookie.net/powerrangers/images/3/36/PR_2018_Logo.png" alt="Power Rangers" width="600">
-### Power Rangers API
 
+### Power Rangers API
 A new and improved Power Rangers database [#GoGo!](https://powerrangers.movie)
 
 ### Resources
